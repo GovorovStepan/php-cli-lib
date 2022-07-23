@@ -1,0 +1,19 @@
+{
+    "name": "cli/test",
+    "description": "cli-test",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "CLI\\Test\\": "src/",
+            "GSP\\CLI\\": "src/lib/gsp/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Govorov Stepan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
